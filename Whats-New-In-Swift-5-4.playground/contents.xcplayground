@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='rendered'>
+    <pages>
+        <page name='Introduction'/>
+        <page name='Improved implicit member syntax'/>
+        <page name='Multiple variadic parameters in functions'/>
+        <page name='Local functions now support overloading'/>
+        <page name='Result builders'/>
+        <page name='Property wrappers are now supported for local variables'/>
+        <page name='Packages can now declare executable targets'/>
+    </pages>
+</playground>
