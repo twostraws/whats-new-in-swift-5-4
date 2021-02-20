@@ -6,7 +6,7 @@
 [< Previous](@previous)           [Home](Introduction)           [Next >](@next)
 # Result builders
 
-Function builders unofficially arrived in Swift 5.1, but in the run up to Swift 5.4 they formally went through the Swift Evolution proposal process as [SE-0289](https://github.com/apple/swift-evolution/blob/main/proposals/0289-result-builders.md) in order to to be discussed and refined. As part of that process they were renamed to result builders to better reflect their actual purpose, and even acquired some new functionality.
+Function builders unofficially arrived in Swift 5.1, but in the run up to Swift 5.4 they formally went through the Swift Evolution proposal process as [SE-0289](https://github.com/apple/swift-evolution/blob/main/proposals/0289-result-builders.md) in order to be discussed and refined. As part of that process they were renamed to result builders to better reflect their actual purpose, and even acquired some new functionality.
 
 First up, the most important part: result builders allow us to create a new value step by step by passing in a sequence of our choosing. They power large parts of SwiftUI’s view creation system, so that when we have a `VStack` with a variety of views inside, Swift silently groups them together into an internal `TupleView` type so that they can be stored as a single child of the `VStack` – it turns a sequence of views into a single view.
 
