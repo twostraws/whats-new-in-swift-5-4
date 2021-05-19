@@ -37,6 +37,29 @@ makeCookies()
 /*:
 Prior to Swift 5.4, the three `add()` methods could be overloaded only if they were not nested inside `makeCookies()`, but from Swift 5.4 onwards function overloading is supported in this case as well.
 
+Swift 5.4 also lets us call local functions before they are declared, meaning that we can now write code like this if needed:
+*/
+func makeCookies2() {   
+    add(item: Butter())
+    add(item: Flour())
+    add(item: Sugar())
+        
+    func add(item: Butter) {
+        print("Adding butter…")
+    }
+    
+    func add(item: Flour) {
+        print("Adding flour…")
+    }
+    
+    func add(item: Sugar) {
+        print("Adding sugar…")
+    }
+}
+    
+makeCookies2()
+/*:
+
 &nbsp;
 
 [< Previous](@previous)           [Home](Introduction)           [Next >](@next)

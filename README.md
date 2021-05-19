@@ -4,6 +4,7 @@ This is an Xcode playground that demonstrates the new features introduced in Swi
 
 * Improved implicit member syntax
 * Multiple variadic parameters in functions
+* Creating variables that call a function of the same name
 * Result builders
 * Local functions now support overloading
 * Property wrappers are now supported for local variables

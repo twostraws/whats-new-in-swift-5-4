@@ -10,6 +10,7 @@
  * [Improved implicit member syntax](Improved%20implicit%20member%20syntax)
  * [Multiple variadic parameters in functions](Multiple%20variadic%20parameters%20in%20functions)
  * [Local functions now support overloading](Local%20functions%20now%20support%20overloading)
+ * [Creating variables that call a function of the same name](Creating%20variables%20that%20call%20a%20function%20of%20the%20same%20name)
  * [Result builders](Result%20builders)
  * [Property wrappers are now supported for local variables](Property%20wrappers%20are%20now%20supported%20for%20local%20variables)
  * [Packages can now declare executable targets](Packages%20can%20now%20declare%20executable%20targets)
